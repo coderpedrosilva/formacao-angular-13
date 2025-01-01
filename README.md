@@ -59,8 +59,6 @@ npm-check
 
 ## Trocar de versão do Angular
 
-1. Trocar a versão do Angular CLI (Globalmente)
-
 Se você deseja trocar a versão do Angular CLI instalada globalmente:
 
 a) Desinstalar a versão atual
