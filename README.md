@@ -1,14 +1,18 @@
 # formacao-angular-13
 
-## Listar versões do nodejs:
+## Versões do nodejs:
 
+Instalar uma versão:
+```
+nvm install 7.8.0
+```
 Listar versões:
 ```
 nvm list
 ```
 Escolher versão
 ```
-nvm use 18.20.4
+nvm use 7.8.0
 ```
 
 ## Downgrade do Node.js
