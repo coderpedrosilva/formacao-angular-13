@@ -1,6 +1,6 @@
 # formacao-angular-13
 
-### Listar versões do nodejs:
+## Listar versões do nodejs:
 
 Listar versões:
 ```
@@ -11,7 +11,7 @@ Escolher versão
 nvm use 18.20.4
 ```
 
-### Downgrade do Node.js
+## Downgrade do Node.js
 
 Você pode instalar uma versão do Node.js que seja compatível com o Angular CLI 13.3.11. 
 
@@ -31,7 +31,7 @@ Caso não esteja usando o nvm, você pode baixar a versão específica do Node.j
 ng version
 ```
 
-### Versões disponíveis do Angular CLI
+## Versões disponíveis do Angular CLI
 
 1. Listar todas as versões disponíveis do Angular CLI
 
@@ -57,7 +57,7 @@ npm install -g npm-check
 npm-check
 ```
 
-### Trocar de versão do Angular
+## Trocar de versão do Angular
 
 1. Trocar a versão do Angular CLI (Globalmente)
 
