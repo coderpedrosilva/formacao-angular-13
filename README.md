@@ -28,3 +28,7 @@ Caso não esteja usando o nvm, você pode baixar a versão específica do Node.j
 ```
 ng version
 ```
+### Outras configurações
+
+- [Trabalhando com diferentes versões do Angular](https://www.alura.com.br/artigos/trabalhando-diferentes-versoes-angular?srsltid=AfmBOopbdRoB03f5PxXOult-9ChQkuKfoBA0MGNSnqeZFdb4TjX_SuSY)
+- [Mudar versão do angular-cli](https://cursos.alura.com.br/forum/topico-mudar-versao-do-angula-cli-266813)
