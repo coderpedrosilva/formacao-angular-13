@@ -31,7 +31,7 @@ npm install -g npm
 O NVM permite gerenciar várias versões do Node.js, ideal para projetos com diferentes requisitos.
 
 1. Baixe o instalador do NVM:
-    - Acesse: https://github.com/coreybutler/nvm-windows/releases.
+    - Acesse: https://github.com/coreybutler/nvm-windows/releases ou [SourceForge - nvm-setup.exe ](https://sourceforge.net/projects/nvm-for-windows.mirror/files/1.2.2/nvm-setup.exe/download)
     - Baixe e execute o arquivo `nvm-setup.exe`.
 2. Instale o NVM seguindo as instruções do instalador.
    
