@@ -31,8 +31,12 @@ Para verificar as versões disponíveis de outros pacotes do Angular, como @angu
 ```
 npm view @angular/core versions
 ```
-Isso retornará uma lista de todas as versões do framework Angular.
+Isso retornará uma lista de todas as versões do framework Angular.<br>
 
+Use este comando para verificar especificamente pela versão desejada:
+```
+npm view @angular/cli@13.0.4 version
+```
 3. Ferramenta alternativa para explorar versões
 
 Se a saída no terminal for muito longa, você pode instalar o pacote npm-check para visualizar pacotes e versões de forma interativa:
