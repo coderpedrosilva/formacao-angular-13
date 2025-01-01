@@ -162,3 +162,45 @@ Com esta documentação, você pode configurar, gerenciar e solucionar problemas
 
 - [Trabalhando com diferentes versões do Angular](https://www.alura.com.br/artigos/trabalhando-diferentes-versoes-angular?srsltid=AfmBOopbdRoB03f5PxXOult-9ChQkuKfoBA0MGNSnqeZFdb4TjX_SuSY)
 - [Mudar versão do angular-cli](https://cursos.alura.com.br/forum/topico-mudar-versao-do-angula-cli-266813)
+  
+## Criando e Executando um Projeto Angular
+
+Este guia descreve como criar, executar e configurar um projeto Angular usando o Angular CLI.
+
+## 1. Criar um Novo Projeto
+
+Para criar um novo projeto Angular, siga os passos abaixo:
+
+```
+ng new diretorioDoProjeto
+```
+- `diretorioDoProjeto`: Substitua pelo nome desejado para o diretório do seu projeto.
+- Durante o processo, o Angular CLI pode solicitar:
+  - Adicionar roteamento (Yes/No).
+  - Escolher o estilo de folha de estilo (CSS, SCSS, etc.).
+
+## 2. Navegar para o Diretório do Projeto
+
+Após a criação, entre no diretório do projeto:
+```
+cd diretorioDoProjeto
+```
+
+## 3. Executar o Servidor de Desenvolvimento
+
+Para subir a aplicação e acessá-la no navegador, use:
+```
+ng serve
+```
+- O servidor estará disponível no endereço:<br>
+      http://localhost:4200
+
+## 4. Instalar Dependências ao Baixar do Repositório
+
+Se você clonou o projeto de um repositório e o diretório `node_modules` não foi incluído no repositório (pois geralmente está listado no `.gitignore`), instale as dependências com:
+```
+npm install
+```
+Isso garantirá que todas as dependências definidas no arquivo `package.json` sejam instaladas localmente no projeto.
+
+
