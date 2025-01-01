@@ -136,10 +136,26 @@ node "$PSScriptRoot\node_modules\@angular\cli\bin\ng.js" $args
 #!/bin/sh
 node "$(dirname "$0")/node_modules/@angular/cli/bin/ng.js" "$@"
 ```
+3. Torne o arquivo `ng` executável (em terminais como Git Bash):
+```
+chmod +x ng
+```
+4. Teste os comandos:
+```
+ng version
+```
+## 5. Comandos Resumidos
+|Ação	| Comando|
+|-----|--------|
+|Instalar versão específica do Node.js	| `nvm install 16.20.2` | 
+|Alternar para uma versão do Node.js	| `nvm use 16.20.2` |
+|Instalar o Angular CLI	| `npm install -g @angular/cli@13.0.4` |
+|Verificar versão do Angular CLI	| `ng version` |
+|Listar todas as versões do Angular CLI	| `npm view @angular/cli versions` |
+|Desinstalar o Angular CLI	| `npm uninstall -g @angular/cli` |
+|Reinstalar uma versão específica do CLI	| `npm install -g @angular/cli@13.3.11` |
 
-
-
-
+Com esta documentação, você pode configurar, gerenciar e solucionar problemas no ambiente Angular CLI 13.0.4 com facilidade. Ajuste conforme necessário para o seu uso no GitHub. 😊
 
 
 ### Outras configurações
