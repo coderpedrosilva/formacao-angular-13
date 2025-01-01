@@ -1,6 +1,6 @@
 # Formação Angular 13
 
-## Configuração do Ambiente
+# Configuração do Ambiente
 
 Este guia detalha como configurar o ambiente necessário para trabalhar com o Angular CLI 13.0.4, incluindo a instalação do Node.js, NVM, Angular CLI, além de soluções para problemas comuns.
 
@@ -163,7 +163,7 @@ Com esta documentação, você pode configurar, gerenciar e solucionar problemas
 - [Trabalhando com diferentes versões do Angular](https://www.alura.com.br/artigos/trabalhando-diferentes-versoes-angular?srsltid=AfmBOopbdRoB03f5PxXOult-9ChQkuKfoBA0MGNSnqeZFdb4TjX_SuSY)
 - [Mudar versão do angular-cli](https://cursos.alura.com.br/forum/topico-mudar-versao-do-angula-cli-266813)
   
-## Criando e Executando um Projeto Angular
+# Criando e Executando um Projeto Angular
 
 Este guia descreve como criar, executar e configurar um projeto Angular usando o Angular CLI.
 
