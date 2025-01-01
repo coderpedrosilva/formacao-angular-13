@@ -10,7 +10,7 @@ Este guia detalha como configurar o ambiente necessário para trabalhar com o An
 
 1. Acesse o site oficial do Node.js: https://nodejs.org.
    
-2. Baixe a versão LTS (Long-Term Support) recomendada.
+2. Baixe a versão **LTS (Long-Term Support)** recomendada.
    
 3. Execute o instalador e siga os passos:
     - Aceite os termos de licença.
@@ -33,7 +33,6 @@ O NVM permite gerenciar várias versões do Node.js, ideal para projetos com dif
 1. Baixe o instalador do NVM:
     - Acesse: https://github.com/coreybutler/nvm-windows/releases.
     - Baixe e execute o arquivo `nvm-setup.exe`.
-    - 
 2. Instale o NVM seguindo as instruções do instalador.
    
 3. Verifique a instalação:
@@ -105,8 +104,9 @@ Se problemas persistirem, reinstale o Node.js e o Angular CLI:
 C:\Program Files\nodejs
 C:\Users\<User>\AppData\Roaming\npm
 C:\Users\<User>\AppData\Roaming\npm-cache
+C:\Users\proge\AppData\Roaming\nvm
 ```
-2. Reinstale o Node.js com o NVM.
+2. Reinstale o Node.js e também o NVM.
 3. Reinstale o Angular CLI:
 ```
 npm install -g @angular/cli@13.0.4
