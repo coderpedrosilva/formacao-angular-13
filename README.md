@@ -203,4 +203,56 @@ npm install
 ```
 Isso garantirá que todas as dependências definidas no arquivo `package.json` sejam instaladas localmente no projeto.
 
+# Comandos Essenciais do Angular CLI
+
+O Angular CLI oferece uma variedade de comandos úteis para facilitar o desenvolvimento, testes, lint e deploy de aplicações Angular. Aqui estão alguns dos mais importantes:
+
+### **1. Servir a Aplicação**
+```bash
+ng serve
+```
+- Inicia um servidor de desenvolvimento local e recompila automaticamente o projeto ao detectar alterações.
+- Por padrão, a aplicação é servida em: [http://localhost:4200](http://localhost:4200).
+
+---
+
+### **2. Executar Testes Unitários**
+```bash
+ng test
+```
+- Executa os testes unitários da aplicação usando a configuração de testes especificada no projeto (geralmente Karma).
+- Os resultados são exibidos no terminal e em um navegador.
+
+---
+
+### **3. Executar Testes End-to-End**
+```bash
+ng e2e
+```
+- Executa testes end-to-end usando uma ferramenta como Protractor ou outra configurada no projeto.
+- Útil para validar o comportamento completo da aplicação.
+
+---
+
+### **4. Verificar Qualidade do Código**
+```bash
+ng lint
+```
+- Analisa o código com ferramentas de linting (como ESLint) para identificar problemas de estilo e erros potenciais.
+- Garante que o código esteja alinhado com os padrões definidos no projeto.
+
+---
+
+### **5. Construir o Projeto para Produção**
+```bash
+ng build --prod
+```
+- Gera uma build otimizada para produção.
+- Os arquivos de saída são armazenados na pasta `dist/` e podem ser implantados em um servidor.
+
+---
+
+Estes comandos são fundamentais para o desenvolvimento, manutenção e publicação de aplicações Angular. Use-os regularmente para garantir um fluxo de trabalho eficiente e uma aplicação de alta qualidade.
+
+
 
