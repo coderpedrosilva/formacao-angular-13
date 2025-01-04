@@ -45,15 +45,19 @@ nvm --version
 ```
 nvm list available
 ```
-2. Instale a versão necessária:
+2. Liste as versões instaladas:
+```
+nvm list 
+```
+3. Instale a versão necessária:
 ```
 nvm install 16.20.2
 ```
-3. Ative a versão instalada:
+4. Ative a versão instalada:
 ```
 nvm use 16.20.2
 ```
-4. Verifique a versão ativa:
+5. Verifique a versão ativa:
 ```
 node -v
 ```
