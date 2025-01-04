@@ -53,11 +53,20 @@ nvm list
 ```
 nvm install 18.20.4 
 ```
-4. Ative a versão instalada:
+4. Para garantir que as versões do Node.js sejam trocadas corretamente usando o NVM no Windows, o **Path** deve incluir os seguintes diretórios (substitua `seuUsuario` pelo nome do seu usuário no Windows):
+
+```
+C:\Users\seuUsuario\AppData\Roaming\npm
+```
+e
+```
+C:\Users\seuUsuario\AppData\Roaming\nvm\nodejs
+```
+5. Ative a versão instalada:
 ```
 nvm use 18.20.4 
 ```
-5. Verifique a versão ativa:
+6. Verifique a versão ativa:
 ```
 node -v
 ```
