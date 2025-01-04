@@ -51,11 +51,11 @@ nvm list
 ```
 3. Instale a versão necessária:
 ```
-nvm install 16.20.2
+nvm install 18.20.4 
 ```
 4. Ative a versão instalada:
 ```
-nvm use 16.20.2
+nvm use 18.20.4 
 ```
 5. Verifique a versão ativa:
 ```
@@ -65,7 +65,7 @@ node -v
 
 1. Instale o Angular CLI na versão desejada:
 ```
-npm install -g @angular/cli@13.0.4
+npm install -g @angular/cli@17.3.9
 ```
 2. Verifique a instalação:
 ```
@@ -83,7 +83,7 @@ npm view @angular/cli versions
 ```
 - Verificar uma versão específica:
 ```
-npm view @angular/cli@13.0.4 version
+npm view @angular/cli@17.3.9 version
 ```
 ### 3.2 Alterar a Versão do Angular CLI
 1. Desinstalar a versão atual:
@@ -92,7 +92,7 @@ npm uninstall -g @angular/cli
 ```
 2. Instalar uma nova versão:
 ```
-npm install -g @angular/cli@13.3.11
+npm install -g @angular/cli@17.3.9
 ```
 3. Verificar a versão instalada:
 ```
@@ -113,7 +113,7 @@ C:\Users\proge\AppData\Roaming\nvm
 2. Reinstale o Node.js e também o NVM.
 3. Reinstale o Angular CLI:
 ```
-npm install -g @angular/cli@13.0.4
+npm install -g @angular/cli@17.3.9
 ```
 ### 4.2 Recriar Arquivos do Angular CLI
 Se os executáveis `ng`, `ng.cmd` ou `ng.ps1` estiverem ausentes:
