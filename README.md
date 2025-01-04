@@ -1,8 +1,8 @@
-# Formação Angular 13
+# Formação Angular
 
 # Configuração do Ambiente
 
-Este guia detalha como configurar o ambiente necessário para trabalhar com o Angular CLI 13.0.4, incluindo a instalação do Node.js, NVM, Angular CLI, além de soluções para problemas comuns.
+Este guia detalha como configurar o ambiente necessário para trabalhar com o Angular, incluindo a instalação do Node.js, NVM, Angular CLI, além de soluções para problemas comuns.
 
 ## 1. Instalando o Node.js
 
